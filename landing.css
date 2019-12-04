@@ -1,0 +1,27 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer{
+    background-color: #cc1d1d;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+}
+.contact{
+    color: white;
+    font-size: 20px;
+    margin: 10px 0px auto 20px;
+}
+.email{
+    color: white;
+    font-size: 20px;
+    margin: 2px 0px 0px 20px;
+}
+.phone{
+    color: white;
+    font-size: 20px;
+    margin: 2px 0px 0px 20px;
+}

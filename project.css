@@ -12,7 +12,7 @@ body{
     top: 0px;
     left: 0px;
 }
-.page_name{
+.title{
     color: white;
     font-size: 65px;
     margin: 5px 0px auto 224px;
@@ -22,7 +22,7 @@ body{
     min-height: calc(100vh - 200px);
     margin-top: 140px;
     margin-left: 270px;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
 }
 .footer{
     background-color: #cc1d1d;
@@ -32,57 +32,47 @@ body{
 }
 .contact{
     color: white;
-    font-size: 16px;
-    margin: 16px 0px auto 20px;
+    font-size: 20px;
+    margin: 10px 0px auto 20px;
 }
 .email{
     color: white;
-    font-size: 16px;
+    font-size: 20px;
     margin: 2px 0px 0px 20px;
 }
 .phone{
     color: white;
-    font-size: 16px;
+    font-size: 20px;
     margin: 2px 0px 0px 20px;
 }
-.projects{
+.photos_1{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 25vw 25vw; 
     grid-column-gap: 0px;
     grid-row-gap: 0em;
-    height: 1000px;
+    height: 400px;
     width: 80%;
-    
-    
 }
-.project{
+.photos_2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 25vw 25vw; 
+    grid-column-gap: 0px;
+    grid-row-gap: 0em;
+    height: 400px;
+    width: 80%;
+}
+.photos_3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 25vw 25vw; 
+    grid-column-gap: 0px;
+    grid-row-gap: 0em;
+    height: 400px;
+    width: 80%;
+}
+.photo{
     background-color: white;
     border: 1px solid black;
-}
-.info{
-    background-color: #5D9AD8;
-    height: 50px;
-    width: 265px;
-    margin-left: 8px;
-    margin-top: 0px;
-}
-.image{
-    background-color: white;
-    border: 1px solid black;
-    width: 263px;
-    height: 350px;
-    margin-left: 8px;
-    margin-top: 10px;
-}
-.title{
-    color: white;
-    font-size: 26px;
-    margin-left: 10px;
-}
-.date{
-    color: white;
-    font-size: 22px;
-    margin-left: 215px;
-    margin-top: -20px;
 }
